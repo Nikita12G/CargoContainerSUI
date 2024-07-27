@@ -11,7 +11,7 @@ import SwiftUI
 struct CargoContainerSUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(cargo1Height: "", cargo1Width: "", cargo1Depth: "", cargo2Height: "", cargo2Width: "", cargo2Depth: "", combinedCargo: Cargo(width: 0, height: 0, depth: 0))
         }
     }
 }
